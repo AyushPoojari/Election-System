@@ -17,12 +17,12 @@
     position: absolute;
     left: 20px;
     top: 10px;
-    background: #4a4a4a;
+    background-image: url("../images/forward-button.jpeg");
     color: rgb(255, 255, 255);
-    height: 45px;
-    width: 45px;
+    height: 64px;
+    width: 64px;
     z-index: 9999;
-    border: 1px solid #333;
+    
     border-radius: 5px;
     cursor: pointer;
     display: flex;
@@ -33,6 +33,7 @@
 
 #btn:checked~.menu-btn {
     left: 247px;
+    background-image: url("../images/back-button.jpeg");
 }
 
 .wrapper .menu-btn i {
